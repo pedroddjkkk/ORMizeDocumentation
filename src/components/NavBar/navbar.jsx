@@ -16,4 +16,12 @@ NavBar.Item = (props) => {
   )
 }
 
+NavBar.Top = (props) => {
+  return (
+    <div className="navbarTop">
+      {props.children}
+    </div>
+  )
+}
+
 export default NavBar

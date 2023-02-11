@@ -6,6 +6,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <NavBar>
+      <NavBar.Top>ORMize Documentation</NavBar.Top>
       <NavBar.Item>Home</NavBar.Item>
       <NavBar.Item>Home</NavBar.Item>
       <NavBar.Item>Home</NavBar.Item>
