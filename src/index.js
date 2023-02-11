@@ -7,6 +7,8 @@ root.render(
   <React.StrictMode>
     <NavBar>
       <NavBar.Item>Home</NavBar.Item>
+      <NavBar.Item>Home</NavBar.Item>
+      <NavBar.Item>Home</NavBar.Item>
     </NavBar>
   </React.StrictMode>
 );

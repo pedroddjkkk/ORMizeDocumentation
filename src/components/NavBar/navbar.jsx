@@ -10,9 +10,9 @@ const NavBar = (props) => {
 
 NavBar.Item = (props) => {
   return (
-    <h1>
+    <div className="navbarItem">
       {props.children}
-    </h1>
+    </div>
   )
 }
 
