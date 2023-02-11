@@ -1,5 +1,17 @@
-export default function NavBar() {
+const NavBar = (props) => {
   return (
-    <h1>Hello</h1>
+    <nav>
+      {props.children}
+    </nav>
   )
 }
+
+NavBar.Item = (props) => {
+  return (
+    <h1>
+      {props.children}
+    </h1>
+  )
+}
+
+export default NavBar
