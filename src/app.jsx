@@ -5,9 +5,11 @@ const App = () => {
     <div>
       <NavBar>
         <NavBar.Top>ORMize Documentation</NavBar.Top>
-        <NavBar.Item>Home</NavBar.Item>
-        <NavBar.Item>Home</NavBar.Item>
-        <NavBar.Item>Home</NavBar.Item>
+        <NavBar.Item>Installing</NavBar.Item>
+        <NavBar.Item>Connecting</NavBar.Item>
+        <NavBar.Item>Model Classes</NavBar.Item>
+        <NavBar.Item>Finding Registers</NavBar.Item>
+        <NavBar.Item>Saving fields</NavBar.Item>
       </NavBar>
     </div>
   )
