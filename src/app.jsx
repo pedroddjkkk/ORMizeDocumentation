@@ -1,5 +1,6 @@
 import Container from "./components/Container/container"
 import NavBar from "./components/NavBar/navbar"
+import ORMizeDocumentation from "./content/documentation/ORMizeDoc"
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
         <NavBar.Item>Saving fields</NavBar.Item>
       </NavBar>
       <Container>
-        <h1>Installing</h1>
+        <ORMizeDocumentation />
       </Container>
     </div>
   )
