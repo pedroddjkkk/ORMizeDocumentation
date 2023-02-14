@@ -1,6 +1,6 @@
 import "./index.css"
 
-const codeSample = (props) => {
+const CodeSample = (props) => {
   const { children, language } = props;
   return (
     <pre className="codeSample">
@@ -9,4 +9,4 @@ const codeSample = (props) => {
   );
 }
 
-export default codeSample;
+export default CodeSample;

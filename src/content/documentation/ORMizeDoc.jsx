@@ -1,3 +1,5 @@
+import CodeSample from "../../components/CodeSample/codeSample";
+
 const ORMizeDocumentation = () => {
   return (
     <>
@@ -15,13 +17,12 @@ const ORMizeDocumentation = () => {
       <div className="contentSection">
         <h1>Installing</h1>
         <p>To install ORMize, you can use npm:</p>
-        <codeSample language="bash">
+        <CodeSample language="bash">
           npm install ormize
-        </codeSample>
+        </CodeSample>
       </div>
     </>
   );
 };
 
 export default ORMizeDocumentation;
-;
