@@ -12,6 +12,10 @@ const ORMizeDocumentation = () => {
           databases in the future.
         </p>
       </div>
+      <div className="contentSection">
+        <h1>Installing</h1>
+        <p>To install ORMize, you can use npm:</p>
+      </div>
     </>
   );
 };
