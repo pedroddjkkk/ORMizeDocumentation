@@ -15,6 +15,9 @@ const ORMizeDocumentation = () => {
       <div className="contentSection">
         <h1>Installing</h1>
         <p>To install ORMize, you can use npm:</p>
+        <codeSample language="bash">
+          npm install ormize
+        </codeSample>
       </div>
     </>
   );

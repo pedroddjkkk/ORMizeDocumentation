@@ -1,3 +1,5 @@
+import "./index.css"
+
 const codeSample = (props) => {
   const { children, language } = props;
   return (
@@ -6,3 +8,5 @@ const codeSample = (props) => {
     </pre>
   );
 }
+
+export default codeSample;
