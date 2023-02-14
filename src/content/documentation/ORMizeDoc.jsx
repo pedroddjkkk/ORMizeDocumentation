@@ -21,6 +21,20 @@ const ORMizeDocumentation = () => {
         <p>Or you can use yarn:</p>
         <CodeSample language="bash">yarn add ormize</CodeSample>
       </div>
+      <div className="contentSection">
+        <h1>Connection</h1>
+        <p>
+          To use ORMize, you need to set up the connection to the database and
+          create your model classes.
+        </p>
+        <h3>Setting up the connection</h3>
+        <CodeSample language="typescript">
+          {`import { Connection } from "ormize"; 
+          
+const connection = new Connection({ host: "localhost", user: "root", port: 3306, database: "orm", });
+          `}
+        </CodeSample>
+      </div>
     </>
   );
 };
