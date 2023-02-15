@@ -18,9 +18,9 @@ NavBar.Item = (props) => {
 
 NavBar.Top = (props) => {
   return (
-    <div className="navbarTop">
+    <a className="navbarTop" href={props.href}>
       {props.children}
-    </div>
+    </a>
   )
 }
 
