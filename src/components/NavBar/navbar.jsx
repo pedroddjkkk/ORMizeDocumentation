@@ -10,9 +10,9 @@ const NavBar = (props) => {
 
 NavBar.Item = (props) => {
   return (
-    <div className="navbarItem">
+    <a className="navbarItem" href={props.href}>
       {props.children}
-    </div>
+    </a>
   )
 }
 
