@@ -34,13 +34,33 @@ const ORMizeDocumentation = () => {
 const connection = new Connection({ host: "localhost", user: "root", port: 3306, database: "orm", });
           `}
         </CodeSample>
-        <p>
-          Checking the connection
-        </p>
+        <p>Checking the connection</p>
         <CodeSample language="typescript">
           {`import { Connection } from "ormize";
 
 console.log(connection.isConnected());`}
+        </CodeSample>
+      </div>
+      <div className="contentSection">
+        <h1>Creating model classes</h1>
+        <p>
+          To create a model class, you need to extend the Model class and define
+          the table name and the columns.
+        </p>
+        <CodeSample language="typescript">
+          {`import { Model, Types } from 'ormize';
+
+class User extends Model {
+  static tableName = 'users';
+  static fields = {
+    id: { type: Types.INTEGER, primaryKey: true, autoIncrement: true },
+    name: { type: Types.STRING, allowNull: true },
+    age: { type: Types.INTEGER, allowNull: true },
+    email: { type: Types.STRING },
+    password: { type: Types.STRING },
+  };
+  static connection = connection.getConnection();
+}`}
         </CodeSample>
       </div>
     </>
