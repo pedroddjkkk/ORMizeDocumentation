@@ -34,6 +34,14 @@ const ORMizeDocumentation = () => {
 const connection = new Connection({ host: "localhost", user: "root", port: 3306, database: "orm", });
           `}
         </CodeSample>
+        <p>
+          Checking the connection
+        </p>
+        <CodeSample language="typescript">
+          {`import { Connection } from "ormize";
+
+console.log(connection.isConnected());`}
+        </CodeSample>
       </div>
     </>
   );
