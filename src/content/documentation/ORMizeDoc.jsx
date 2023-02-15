@@ -3,7 +3,7 @@ import CodeSample from "../../components/CodeSample/codeSample";
 const ORMizeDocumentation = () => {
   return (
     <>
-      <div className="contentSection">
+      <div className="contentSection" id="ormizeSection">
         <h1>ORMize Documentation</h1>
         <p>
           ORMize is a TypeScript-developed Object-Relational Mapping (ORM), but
@@ -14,14 +14,14 @@ const ORMizeDocumentation = () => {
           databases in the future.
         </p>
       </div>
-      <div className="contentSection">
+      <div className="contentSection" id="installingSection">
         <h1>Installing</h1>
         <p>To install ORMize, you can use npm:</p>
         <CodeSample language="bash">npm install ormize</CodeSample>
         <p>Or you can use yarn:</p>
         <CodeSample language="bash">yarn add ormize</CodeSample>
       </div>
-      <div className="contentSection">
+      <div className="contentSection" id="connectionSection">
         <h1>Connection</h1>
         <p>
           To use ORMize, you need to set up the connection to the database and
@@ -41,7 +41,7 @@ const connection = new Connection({ host: "localhost", user: "root", port: 3306,
 console.log(connection.isConnected());`}
         </CodeSample>
       </div>
-      <div className="contentSection">
+      <div className="contentSection" id="modelSection">
         <h1>Creating model classes</h1>
         <p>
           To create a model class, you need to extend the Model class and define
