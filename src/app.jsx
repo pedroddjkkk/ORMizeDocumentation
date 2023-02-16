@@ -11,7 +11,7 @@ const App = () => {
         <NavBar.Item href="#connectionSection">Connecting</NavBar.Item>
         <NavBar.Item href="#modelSection">Model Classes</NavBar.Item>
         <NavBar.Item>Finding Registers</NavBar.Item>
-        <NavBar.Item>Saving fields</NavBar.Item>
+        <NavBar.Item href="#modelMethodsSection">Saving fields</NavBar.Item>
       </NavBar>
       <Container>
         <ORMizeDocumentation />

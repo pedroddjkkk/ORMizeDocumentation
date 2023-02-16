@@ -82,7 +82,7 @@ class User extends Model {
 User.sync();`}
         </CodeSample>
       </div>
-      <div className="contentSection">
+      <div className="contentSection" id="modelMethodsSection">
         <h1>Model methods</h1>
         <h3>Creating a new record</h3>
         <CodeSample language="typescript">
