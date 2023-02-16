@@ -100,7 +100,14 @@ class User extends Model {
   static connection = connection.getConnection();
 }
 
-User.sync();`}
+User.sync();
+
+const user = new User();
+user.name = 'John Doe';
+user.age = 20;
+user.email = 'jhon@email.com
+
+await user.sync();`}
         </CodeSample>
       </div>
     </>
